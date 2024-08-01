@@ -1,0 +1,83 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header and Footer styles */
+header, footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: rgb(0, 13, 255);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.about-me {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.about-me h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.about-me p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.about-me a {
+    color: rgb(0, 13, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-me a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.269);
+    border-bottom: 1px solid #ccc;
+}
